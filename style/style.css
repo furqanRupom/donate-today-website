@@ -47,6 +47,16 @@
    
 }
 
+input{
+    width: 100%;
+    padding: 1.2rem 0;
+  font-size: 1.4rem;
+  text-align: center;
+    border: none;
+    border-bottom: 1px solid #808080;
+    outline: none;
+}
+
 .btn-primary{
 margin-top: 1rem;
  background-color: #FF5959;
@@ -122,8 +132,63 @@ hr{
 
 
 
-/* how to donate section start*/
+/* where to donate section start*/
+
+.where-section{
+    margin: 6rem auto 2rem;
+}
+
+.where-header{
+    text-align: center;
+    margin: 2rem auto;
+    width: 50%;
+}
+.where-header h1{
+    font-size: 3rem;
+}
+
+.where-header p{
+   line-height: 25px;
+   margin: 1.3rem 0 2rem;
+   color: #707070;
 
 
 
-/* how to donate section end */
+}
+.donate-flex-container{
+    display: flex;
+    justify-content: space-around;
+    margin:2rem 8rem;
+    gap: 2rem;
+}
+.contain-item{
+    padding: 2rem 1.5rem;
+    flex:1;
+    border-radius: 0.3rem;
+}
+.contain-item img{
+    padding: 2rem 0 0.2rem;
+}
+.contain-item h1{
+   padding: 0.6rem 0 0.3rem; 
+}
+
+.contain-item p{
+    margin: 1.1rem 0 1.8rem;
+    line-height: 27px;
+    color: #707070;
+}
+
+
+#contain-id-one{
+    background: rgba(79, 157, 166, 0.1);
+}
+
+#contain-id-two{
+    background: rgba(255, 89, 89, 0.1);
+}
+
+#contain-id-three{
+    background: rgb(249, 245, 236);
+}
+/* where to donate section end */
