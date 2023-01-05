@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&family=Rowdies:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+/* header section start */
+
+.header {
+    background-image: url(../images/donation9.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: #808080;
+    background-blend-mode: multiply;
+    height: 100vh;
+}
+
+.header-section {
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.upper{
+    width: 50%;
+    text-align: center;
+    color: white;
+}
+
+.h-primary{
+    font-size: 3.8rem;
+    font-weight: bold;
+}
+.p-primary{
+    font-size: 1.11rem;
+    line-height: 25px;
+    font-weight: 300;
+    padding: 0.2rem 1.5rem 0.5rem;
+   
+}
+
+.btn-primary{
+margin-top: 1rem;
+ background-color: #FF5959;
+ padding: 1.1rem 2.5rem;
+ color: #FFFFFF;
+ font-size: 1.6rem;
+ border: none;
+ border-radius: 0.3rem;
+}
+
+/* header section end */
+
+
+
+/* main section start */
+
+
+/* donate section start */
+
+.donate-section{
+    max-width: 635px;
+    margin: 6rem auto 3.5rem;
+    text-align: center;
+}
+.donate-section .donate-primary{
+    font-size: 3rem;
+
+}
+
+.donate-section .donate-description{
+    line-height: 25px;
+    font-size: 1rem;
+    font-weight: normal;
+    padding: 1.7rem 0 2rem;
+    color: #707070;
+}
+
+
+.donate-section .prize-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 1.1rem 0;
+    gap: 1.4rem;
+}
+.prize-container .prize-item{
+    color: #707070;
+    padding: 2rem;
+    background-color: #FAFAFA;
+    font-size: 2rem;
+    border-radius: 0.3rem;
+
+}
+
+
+#red-item{
+    color: #FF5959;
+    border: 2px solid #FF5959;
+    background: #FEEEEE;
+}
+
+.other-description{
+    margin: 3rem 0 0.1rem;
+    color: #707070;
+}
+hr{
+    margin: 1rem 0;
+    border-bottom: 1px solid #FAFAFA;
+}
+/* donate section end */
+
+
+
+
+
+
+/* how to donate section start*/
+
+
+
+/* how to donate section end */
